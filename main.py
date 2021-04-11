@@ -7,9 +7,13 @@ from colorExtract import *
 
 
 def showHelp():
-    print('\tUSE\n./app.py <filename>\n\n\tEXTRA PARAMETERS')
+    print('\tUSE\n./app.py [<filename>/EXTRA PARAMETERS] <other options>\n\n\tEXTRA PARAMETERS')
     print('--v\t\tShow version')
     print('--h\t\tShow this help and exit')
+    print('\n\n\n')
+    print('\tOTHER OPTIONS')
+    print('#1\t\t only RGB extraction')
+    print('#2\t\t extract RG, GB, RB alongwith RGB')
     print("\n\n\nNOTE:\nONLY .JPG and .PNG files are supported as of now")
 
 
